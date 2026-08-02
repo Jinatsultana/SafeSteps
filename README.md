@@ -145,8 +145,4 @@ The Hybrid CNN–Transformer Based Human Fall Detection System demonstrates how 
 
 ---
 
-# 👩‍💻 Author
 
-**Jinat Sultana**
-
-B.Tech Final Year Project – SafeSteps
