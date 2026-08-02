@@ -2,7 +2,7 @@
 
 ##  Overview
 
-SafeSteps is a deep learning-based Human Fall Detection system designed for intelligent healthcare monitoring. The project uses a **Hybrid CNN–Transformer architecture** to detect fall and non-fall activities from wearable sensor data. By combining the feature extraction capability of Convolutional Neural Networks (CNN) with the sequence learning capability of the Transformer Encoder, the system automatically learns meaningful spatial and temporal patterns from time-series sensor signals. :contentReference[oaicite:0]{index=0}
+SafeSteps is a deep learning-based Human Fall Detection system designed for intelligent healthcare monitoring. The project uses a **Hybrid CNN–Transformer architecture** to detect fall and non-fall activities from wearable sensor data. By combining the feature extraction capability of Convolutional Neural Networks (CNN) with the sequence learning capability of the Transformer Encoder, the system automatically learns meaningful spatial and temporal patterns from time-series sensor signals. 
 
 The project is implemented using **Python**, **PyTorch**, and **Google Colab**, and is trained using the **SisFall Dataset**, which contains accelerometer and gyroscope recordings of daily activities and simulated falls. 
 
@@ -61,7 +61,7 @@ The proposed Human Fall Detection system follows these steps:
 6. Extract local motion features using a CNN.
 7. Learn long-term temporal dependencies using a Transformer Encoder.
 8. Perform binary classification through a fully connected layer.
-9. Predict the activity as **Fall** or **Non-Fall**. :contentReference[oaicite:5]{index=5}
+9. Predict the activity as **Fall** or **Non-Fall**. 
 
 ---
 
@@ -73,7 +73,7 @@ The proposed Human Fall Detection system follows these steps:
 - Pandas
 - NumPy
 - Scikit-learn
-- Matplotlib :contentReference[oaicite:6]{index=6}
+- Matplotlib 
 
 ---
 
@@ -122,7 +122,7 @@ The generated evaluation plots are available in the **plots** folder.
 - Smart hospitals
 - Wearable health devices
 - Remote patient monitoring
-- Emergency response systems :contentReference[oaicite:8]{index=8}
+- Emergency response systems 
 
 ---
 
@@ -135,13 +135,13 @@ Future improvements include:
 - Mobile and cloud deployment
 - Edge AI implementation for low-latency inference
 - Evaluation on larger real-world datasets
-- Exploration of advanced architectures such as Vision Transformers and Graph Neural Networks :contentReference[oaicite:9]{index=9}
+- Exploration of advanced architectures such as Vision Transformers and Graph Neural Networks 
 
 ---
 
 #  Conclusion
 
-The Hybrid CNN–Transformer Based Human Fall Detection System demonstrates how deep learning can improve healthcare monitoring by combining CNN-based feature extraction with Transformer-based sequence learning. Trained on the SisFall Dataset after preprocessing, normalization, and sliding-window sequence generation, the model showed stable convergence and effective learning throughout training. The approach reduces manual feature engineering while improving representation of spatial and temporal information, making it a strong foundation for future AI-enabled healthcare and wearable monitoring systems. :contentReference[oaicite:10]{index=10}
+The Hybrid CNN–Transformer Based Human Fall Detection System demonstrates how deep learning can improve healthcare monitoring by combining CNN-based feature extraction with Transformer-based sequence learning. Trained on the SisFall Dataset after preprocessing, normalization, and sliding-window sequence generation, the model showed stable convergence and effective learning throughout training. The approach reduces manual feature engineering while improving representation of spatial and temporal information, making it a strong foundation for future AI-enabled healthcare and wearable monitoring systems. 
 
 ---
 
