@@ -42,11 +42,6 @@ The dataset contains:
 
 The raw sensor data is preprocessed through data cleaning, normalization, and sliding-window sequence generation before being used to train the Hybrid CNN–Transformer model. 
 
-> **Note:** The dataset is not included in this repository because it exceeds GitHub's file size limit.
-
-Official dataset:
-https://github.com/larocs/SisFall_dataset
-
 ---
 
 #  Proposed Methodology
