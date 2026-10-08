@@ -8,3 +8,4 @@ scipy
 graphviz
 jupyter
 ipykernel
+streamlit
